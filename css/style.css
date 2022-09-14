@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .header {
+    min-height: 43vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header>.bg-header {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* download-menu */
+  
+  .download-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading1 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .p1 {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .btns {
+    margin-top: 3rem;
+  }
+  
+  .btn1,
+  .btn2 {
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+  
+  .btn1 {
+    margin-right: 1rem;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 0px 30px rgba(38, 186, 164, 0.5);
+  }
+  
+  .btn2 {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 0px 30px rgba(97, 115, 255, 0.5);
+  }
+  
+  .heading2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 8rem 0 1.5rem 0;
+  }
+  
+  .p2 {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .pc {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .computer {
+    margin: 5rem 0 0 -2rem;
+  }
+  
+  h3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  
+  .h3 {
+    margin: 9rem 0 0 9.2rem;
+  }
+  
+  .h4 {
+    margin: 3rem 0 0 9.2rem;
+  }
+  
+  .h5 {
+    margin: 3rem 0 0 9.2rem;
+  }
+  
+  .p3 {
+    color: hsl(201, 11%, 66%);
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.6;
+    margin: 1rem 9.2rem 0 9.2rem;
+  }
+  
+  .devices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-devices {
+    margin-top: 5rem;
+  }
+  
+  .heading3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1.5rem 0;
+  }
+  
+  .cps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem;
+  }
+  
+  .blacklist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .h6 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .p4 {
+    color: hsl(201, 11%, 66%);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    margin: 4rem 0 0 7rem;
+  }
+  
+  .bottom-container {
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 5rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-svg {
+    width: 4rem;
+    height: 4rem;
+    margin: 3rem 8rem 0 15rem;
+  }
+  
+  .p5 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2.5;
+    margin: 3rem 5rem 0 0;
+  }
+  
+  .facebook {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5rem 2rem 0 10rem;
+  }
+  
+  .twitter {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5rem 2rem 0 0;
+  }
+  
+  .instagram {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5rem 2rem 0 0;
+  }
+  
+  @media screen and (max-width: 400px) {
+  
+  
+    .bg-header {
+      background-image: url('images/bg-header-desktop.png');
+      min-width: 100vw;
+      min-height: 50vh;
+    }
+  
+    .heading1 {
+      font-size: 2.2rem;
+    }
+  
+    .p1 {
+      font-size: 1.2rem;
+    }
+  
+    .btns {
+      margin: 3rem 0 0 2rem;
+    }
+  
+    .btn1,
+    .btn2 {
+      padding: 20px 70px;
+      border-radius: 35px;
+      font-size: 1.5rem;
+    }
+  
+    .btn1 {
+      margin-right: 0;
+    }
+  
+    .btn2 {
+      margin-top: 1rem;
+    }
+  
+    .heading2 {
+      font-size: 2rem;
+    }
+  
+    .p2 {
+      font-size: 1.2rem;
+    }
+  
+    .pc {
+      display: block;
+    }
+  
+    .computer {
+      margin: 5rem 0 0 2rem;
+      width: 20rem;
+      height: 15rem;
+    }
+  
+    h3 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .h3 {
+      margin: 5rem 0 0 2rem;
+    }
+  
+    .h4 {
+      margin: 3rem 0 0 2rem;
+    }
+  
+    .h5 {
+      margin: 3rem 0 0 2rem;
+    }
+  
+    .p3 {
+      font-size: 1.4rem;
+      text-align: center;
+      margin: 1rem 2rem 0 2rem;
+    }
+  
+    .image-devices {
+      width: 23rem;
+      height: 15rem;
+    }
+  
+    .heading3 {
+      font-size: 2.2rem;
+    }
+  
+    .cps {
+      display: block;
+      margin: 8rem 3rem 0 3rem;
+    }
+  
+    .blacklist {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 5rem 0 0 0;
+    }
+  
+    .p4 {
+      font-size: 1.2rem;
+    }
+  
+    .icons {
+      display: block;
+    }
+  
+    .bottom-container {
+      margin-top: 5rem;
+      height: 35rem;
+      display: block;
+    }
+  
+    .logo-svg {
+      width: 4rem;
+      height: 4rem;
+      margin: 3rem 8rem 2rem 10rem;
+    }
+  
+    .p5 {
+      text-align: center;
+      margin: 0.5rem 0 0 0;
+    }
+  
+    .facebook {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 5rem 2rem 0 8rem;
+    }
+  
+    .twitter {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 5rem 2rem 0 0;
+    }
+  
+    .instagram {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 5rem 2rem 0 0;
+    }
+  }
+  
